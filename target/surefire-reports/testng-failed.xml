@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [POS]">
+  <listeners>
+    <listener class-name="com.pos.utilities.Reporting"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="POS Automation Test(failed)">
+    <classes>
+      <class name="com.pos.testcases.TC_Sell_Concessions">
+        <methods>
+          <include name="SellConcessions"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.pos.testcases.TC_Sell_Concessions -->
+      <class name="com.pos.testcases.SingleSignIn">
+        <methods>
+          <include name="SingleUserCashPayment"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.pos.testcases.SingleSignIn -->
+      <class name="com.pos.testcases.MultipleTicketPayments">
+        <methods>
+          <include name="MultipleSignIn"/>
+          <include name="EmpID"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.pos.testcases.MultipleTicketPayments -->
+    </classes>
+  </test> <!-- POS Automation Test(failed) -->
+</suite> <!-- Failed suite [POS] -->

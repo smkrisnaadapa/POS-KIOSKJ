@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="POS">
+    <listeners>
+		<listener class-name="com.pos.utilities.Reporting" />
+	</listeners>
+
+		<test name="POS Automation Test">
+		
+		<classes>
+			<class name="com.pos.testcases.SingleSignIn" />
+			<class name="com.pos.testcases.MultipleTicketPayments"/>
+			<class name="com.pos.testcases.TC_Sell_Concessions"/>
+			
+			<!--  <class name="com.inetbanking.testCases.TC_LoginDDT_002" />-->
+			</classes>
+
+	</test>
+
+</suite>

@@ -1,0 +1,12 @@
+com\pos\testcases\TC_SellMultipleTicketsWithCash3Adults.class
+com\pos\testcases\UpNext.class
+com\pos\testcases\TC_SellMultipleCombosWithCash.class
+com\pos\testcases\TC_PrintLastReceipt.class
+com\pos\utilities\Reporting.class
+com\pos\testcases\MultipleTicketPayments.class
+com\pos\testcases\BaseClass.class
+com\pos\testcases\SingleSignIn.class
+com\pos\testcases\TC_Sell_10Adults_5Senior_5Children_cash.class
+com\pos\testcases\TC_Sell_Concessions.class
+com\pos\utilities\XLUtils.class
+com\pos\utilities\ReadConfig.class

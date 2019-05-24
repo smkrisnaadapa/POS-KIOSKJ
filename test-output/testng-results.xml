@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="POS" duration-ms="317393" started-at="2019-05-22T11:38:40Z" finished-at="2019-05-22T11:43:58Z">
+    <groups>
+    </groups>
+    <test name="POS Automation Test" duration-ms="317393" started-at="2019-05-22T11:38:40Z" finished-at="2019-05-22T11:43:58Z">
+      <class name="com.pos.testcases.SingleSignIn">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.pos.testcases.SingleSignIn@56ef9176]" name="setup" is-config="true" duration-ms="15804" started-at="2019-05-22T11:38:41Z" finished-at="2019-05-22T11:38:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="EmpID()[pri:0, instance:com.pos.testcases.SingleSignIn@56ef9176]" name="EmpID" duration-ms="62738" started-at="2019-05-22T11:38:57Z" finished-at="2019-05-22T11:39:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EmpID -->
+        <test-method status="PASS" signature="SingleUserCashPayment()[pri:0, instance:com.pos.testcases.SingleSignIn@56ef9176]" name="SingleUserCashPayment" duration-ms="21617" started-at="2019-05-22T11:39:59Z" finished-at="2019-05-22T11:40:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SingleUserCashPayment -->
+      </class> <!-- com.pos.testcases.SingleSignIn -->
+      <class name="com.pos.testcases.MultipleTicketPayments">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.pos.testcases.MultipleTicketPayments@4566e5bd]" name="setup" is-config="true" duration-ms="19085" started-at="2019-05-22T11:40:21Z" finished-at="2019-05-22T11:40:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="EmpID()[pri:0, instance:com.pos.testcases.MultipleTicketPayments@4566e5bd]" name="EmpID" duration-ms="63863" started-at="2019-05-22T11:40:40Z" finished-at="2019-05-22T11:41:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EmpID -->
+        <test-method status="PASS" signature="MultipleSignIn()[pri:0, instance:com.pos.testcases.MultipleTicketPayments@4566e5bd]" name="MultipleSignIn" duration-ms="30252" started-at="2019-05-22T11:41:44Z" finished-at="2019-05-22T11:42:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MultipleSignIn -->
+      </class> <!-- com.pos.testcases.MultipleTicketPayments -->
+      <class name="com.pos.testcases.TC_Sell_Concessions">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.pos.testcases.TC_Sell_Concessions@1ed4004b]" name="setup" is-config="true" duration-ms="19516" started-at="2019-05-22T11:42:14Z" finished-at="2019-05-22T11:42:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="EmpID()[pri:0, instance:com.pos.testcases.TC_Sell_Concessions@1ed4004b]" name="EmpID" duration-ms="66206" started-at="2019-05-22T11:42:34Z" finished-at="2019-05-22T11:43:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EmpID -->
+        <test-method status="PASS" signature="SellConcessions()[pri:0, instance:com.pos.testcases.TC_Sell_Concessions@1ed4004b]" name="SellConcessions" duration-ms="17915" started-at="2019-05-22T11:43:40Z" finished-at="2019-05-22T11:43:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SellConcessions -->
+      </class> <!-- com.pos.testcases.TC_Sell_Concessions -->
+    </test> <!-- POS Automation Test -->
+  </suite> <!-- POS -->
+</testng-results>
