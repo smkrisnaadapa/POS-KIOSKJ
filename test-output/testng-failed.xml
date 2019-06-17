@@ -1,15 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test thread-count="5" name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [POS]">
+  <listeners>
+    <listener class-name="com.pos.utilities.Reporting"/>
+  </listeners>
+  <test thread-count="5" name="POS Automation Test(failed)">
     <classes>
-      <class name="com.pos.testcases.TC_Sell_10Adults_5Senior_5Children_cash">
+      <class name="com.pos.testcases.TC_Sell_Concessions">
         <methods>
-          <include name="EmpID"/>
-          <include name="MultipleSignIn"/>
+          <include name="SellConcessions"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- com.pos.testcases.TC_Sell_10Adults_5Senior_5Children_cash -->
+      </class> <!-- com.pos.testcases.TC_Sell_Concessions -->
+      <class name="com.pos.testcases.TC_Perform_Audit_POS">
+        <methods>
+          <include name="EmpID"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.pos.testcases.TC_Perform_Audit_POS -->
+      <class name="com.pos.testcases.TC_ComingSoon">
+        <methods>
+          <include name="ZComingSoon"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.pos.testcases.TC_ComingSoon -->
+      <class name="com.pos.testcases.TC_AddFloatToTheCashDrawer">
+        <methods>
+          <include name="EmpID"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.pos.testcases.TC_AddFloatToTheCashDrawer -->
+      <class name="com.pos.testcases.TC_SellMultipleCombosWithCash">
+        <methods>
+          <include name="EmpID"/>
+          <include name="SellConcessions"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.pos.testcases.TC_SellMultipleCombosWithCash -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- POS Automation Test(failed) -->
+</suite> <!-- Failed suite [POS] -->

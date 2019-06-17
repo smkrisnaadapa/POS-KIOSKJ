@@ -6,30 +6,37 @@
   </listeners>
   <test thread-count="5" name="POS Automation Test(failed)">
     <classes>
-      <class name="com.pos.testcases.TC_SingleTicket">
-        <methods>
-          <include name="EmpID"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- com.pos.testcases.TC_SingleTicket -->
-      <class name="com.pos.testcases.TC_MultipleTicketBooking">
-        <methods>
-          <include name="MultipleSignIn"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- com.pos.testcases.TC_MultipleTicketBooking -->
-      <class name="com.pos.testcases.TC_SellMultipleCombosWithCash">
-        <methods>
-          <include name="SellConcessions"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- com.pos.testcases.TC_SellMultipleCombosWithCash -->
       <class name="com.pos.testcases.TC_Sell_Concessions">
         <methods>
           <include name="SellConcessions"/>
           <include name="setup"/>
         </methods>
       </class> <!-- com.pos.testcases.TC_Sell_Concessions -->
+      <class name="com.pos.testcases.TC_Perform_Audit_POS">
+        <methods>
+          <include name="EmpID"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.pos.testcases.TC_Perform_Audit_POS -->
+      <class name="com.pos.testcases.TC_ComingSoon">
+        <methods>
+          <include name="ZComingSoon"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.pos.testcases.TC_ComingSoon -->
+      <class name="com.pos.testcases.TC_AddFloatToTheCashDrawer">
+        <methods>
+          <include name="EmpID"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.pos.testcases.TC_AddFloatToTheCashDrawer -->
+      <class name="com.pos.testcases.TC_SellMultipleCombosWithCash">
+        <methods>
+          <include name="EmpID"/>
+          <include name="SellConcessions"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.pos.testcases.TC_SellMultipleCombosWithCash -->
     </classes>
   </test> <!-- POS Automation Test(failed) -->
 </suite> <!-- Failed suite [POS] -->

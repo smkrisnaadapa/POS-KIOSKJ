@@ -9,19 +9,20 @@
 		<test name="POS Automation Test">
 		
 		<classes>
-		    <class name="com.pos.testcases.TC_AddFloatToTheCashDrawer">
-		    <class name="Lock_The_POS"
-			<class name="com.pos.testcases.TC_SingleTicket" />
+		    <class name="com.pos.testcases.TC_AddFloatToTheCashDrawer"/>
+		    <class name="com.pos.testcases.TC_Lock_The_POS"/>
+			<class name="com.pos.testcases.TC_SingleTicket"/>
 			<class name="com.pos.testcases.TC_MultipleTicketBooking"/>
 			<class name="com.pos.testcases.TC_Sell_Concessions"/>
-			<class name="com.pos.testcases.TC_SellMultipleCombosWithCash">
-			<class name="com.pos.testcases.TC_ComingSoon">
-			<class name="com.pos.testcases.TC_UpNext">
-			<class name=com.pos.Perform_Audit_POS>
-			</class>
+			<class name="com.pos.testcases.TC_SellMultipleCombosWithCash"/>
+			<class name="com.pos.testcases.TC_ComingSoon"/>
+			<class name="com.pos.testcases.TC_UpNext"/>
+			<class name="com.pos.testcases.TC_Perform_Audit_POS"/>
+		
 			
-			<!--  <class name="com.inetbanking.testCases.TC_LoginDDT_002" />-->
-			</classes>
+			<!--  <class name="com.POS.testcases.TC_EndShift" />-->
+			
+		 </classes>
 
 	</test>
 
