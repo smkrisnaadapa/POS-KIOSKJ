@@ -6,18 +6,24 @@
   </listeners>
   <test thread-count="5" name="POS Automation Test(failed)">
     <classes>
-      <class name="com.pos.testcases.SingleSignIn">
+      <class name="com.pos.testcases.TC_SingleTicket">
         <methods>
-          <include name="SingleUserCashPayment"/>
+          <include name="EmpID"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- com.pos.testcases.SingleSignIn -->
-      <class name="com.pos.testcases.MultipleTicketPayments">
+      </class> <!-- com.pos.testcases.TC_SingleTicket -->
+      <class name="com.pos.testcases.TC_MultipleTicketBooking">
         <methods>
           <include name="MultipleSignIn"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- com.pos.testcases.MultipleTicketPayments -->
+      </class> <!-- com.pos.testcases.TC_MultipleTicketBooking -->
+      <class name="com.pos.testcases.TC_SellMultipleCombosWithCash">
+        <methods>
+          <include name="SellConcessions"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.pos.testcases.TC_SellMultipleCombosWithCash -->
       <class name="com.pos.testcases.TC_Sell_Concessions">
         <methods>
           <include name="SellConcessions"/>

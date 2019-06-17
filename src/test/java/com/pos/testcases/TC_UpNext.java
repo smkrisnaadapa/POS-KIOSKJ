@@ -4,7 +4,7 @@ package com.pos.testcases;
 
 import org.testng.annotations.Test;
 
-public class UpNext extends BaseClass {
+public class TC_UpNext extends BaseClass {
 
 	
 @Test

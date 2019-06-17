@@ -46,6 +46,11 @@ public void setup()  throws Exception {
 	
 	logger.info("connected the POS Emulator");
 }
+	
+
+
+
+
 
 @ Test
 public void EmpID()
@@ -65,6 +70,8 @@ public void EmpID()
 	logger.info("Emp logined the POS successfully" );
 }
 
+	
+	
 /*
 @AfterClass
 public void afterClass() {
@@ -73,6 +80,7 @@ logger.info("quit the App");
 
 }
 */
+
 public void captureScreen(WebDriver driver, String tname) throws IOException {
 	TakesScreenshot ts = (TakesScreenshot) driver;
 	File source = ts.getScreenshotAs(OutputType.FILE);

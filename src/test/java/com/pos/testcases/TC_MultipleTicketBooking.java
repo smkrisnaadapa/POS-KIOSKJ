@@ -9,7 +9,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
-public class MultipleTicketPayments extends BaseClass {
+public class TC_MultipleTicketBooking extends BaseClass {
 	
 @Test
 public void MultipleSignIn () 

@@ -3,12 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.pos.testcases.SingleSignIn">
+      <class name="com.pos.testcases.TC_Sell_10Adults_5Senior_5Children_cash">
         <methods>
-          <include name="SingleUserCashPayment"/>
+          <include name="EmpID"/>
+          <include name="MultipleSignIn"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- com.pos.testcases.SingleSignIn -->
+      </class> <!-- com.pos.testcases.TC_Sell_10Adults_5Senior_5Children_cash -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

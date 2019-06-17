@@ -5,7 +5,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
-public class SingleSignIn extends BaseClass {
+public class TC_SingleTicket extends BaseClass {
 	
 @Test
 public void SingleUserCashPayment() 
@@ -34,16 +34,16 @@ public void SingleUserCashPayment()
 }
 
 /*
- if(driver.getTitle().equals("Guru99 Bank Manager HomePage"))
+ if(driver.getTitle().equals("Create Transaction"))
 		{
 			Assert.assertTrue(true);
 			logger.info("Login test passed");
 		}
 		else
 		{
-			captureScreen(driver,"loginTest");
+			captureScreen(driver,"TC_SingleSignIn");
 			Assert.assertTrue(false);
-			logger.info("Login test failed");
+			logger.info("Ticket Booking failed");
 		}
  */
 }
