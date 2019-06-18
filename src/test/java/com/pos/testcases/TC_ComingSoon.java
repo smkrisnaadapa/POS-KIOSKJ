@@ -1,6 +1,7 @@
 package com.pos.testcases;
 
 import java.time.Duration;
+import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Dimension;
@@ -20,6 +21,8 @@ public class TC_ComingSoon extends BaseClass {
 			
 	public void RightSwipe12() throws Exception  {
 		//	Thread.sleep(00);
+		
+		driver.manage().timeouts().implicitlyWait(100, TimeUnit.SECONDS);
 			Dimension size = driver.manage().window().getSize();
 	        System.out.println(size.height+"height");
 	        System.out.println(size.width+"width");
@@ -32,11 +35,11 @@ public class TC_ComingSoon extends BaseClass {
 	        TouchAction ts = new TouchAction(driver);
 	        //for(int i=0;i<=3;i++) {
 	        ts.press(PointOption.point(startPoint,ScreenPlace ))
-	       .waitAction(WaitOptions.waitOptions(Duration.ofMillis(500)))
+	       .waitAction(WaitOptions.waitOptions(Duration.ofMillis(1000)))
 	       .moveTo(PointOption.point(endPoint,ScreenPlace )).release().perform();
 	        
 	    
-	        Thread.sleep(1000);
+	  //      Thread.sleep(1000);
 	        
 		}
 	
